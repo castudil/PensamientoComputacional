@@ -1,0 +1,15 @@
+Escriba un algoritmo que dada una posición XY en el plano cartesiano indique a qué cuadrante pertenece (PRIMERO, SEGUNDO, TERCERO o CUARTO). Si la posición se encuentra sobre un eje, indique EJE.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+-54 0.5
+
+Salida a:
+SEGUNDO
+
+
+Entrada b:
+5 0
+
+Salida b:
+EJE

@@ -1,0 +1,24 @@
+Escribra un programa que permita realizar distintas operaciones matemáticas sobre dos valores reales. Para ello, primero se ingresará un valor entero que indicará la operación a realizar según lo siguiente:
+
+1- Suma
+2- Resta
+3- Multiplicación
+4- División
+
+Luego se ingresarán los dos valores flotantes N1 y N1 a operar. Se debe entregar exclusivamente el resultado. En el caso que se intente una división con denominador 0, indicarlo con INDEFINIDO.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+2
+5.5 -3.5
+
+Salida a:
+9.000000
+
+
+Entrada b:
+4
+84 0
+
+Salida b:
+INDEFINIDO

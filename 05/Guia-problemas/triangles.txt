@@ -1,0 +1,20 @@
+Escribir un programa que, dados los lados de un triángulo a, b y c, indique si es EQUILATERO (tres lados iguales), ISOSCELES (sólo dos lados iguales) o ESCALENO (tres lados distintos) y que calcule su área mediante la fórmula de Herón:
+
+A² = p(p - a)(p - b)(p - c), donde p = (a + b + c)/2
+
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+3 4 5
+
+Salida a:
+ESCALENO
+6.000000
+
+
+Entrada b:
+2.5 2.5 2.5
+
+Salida b:
+EQUILATERO
+2.706329

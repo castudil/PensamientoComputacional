@@ -1,0 +1,29 @@
+Escribra un programa que permita obtener el area de distintas figuras geométricas. Para ello, primero se ingresará un valor entero que indicará la figura geométrica según lo siguiente:
+
+1- Círculo
+2- Rectángulo
+3- Triángulo
+
+Luego se ingresarán los valores reales positivos necesarios para obtener el área:
+
+Círculo: radio -> 3.14*r²
+Rectángulo: largo y ancho -> largo*ancho
+Triángulo: base y altura -> (base*altura)/2
+
+Se debe entregar exclusivamente el área obtenida.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+2
+5.5 10
+
+Salida a:
+55.000000
+
+
+Entrada b:
+1
+2
+
+Salida b:
+12.560000

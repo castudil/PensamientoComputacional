@@ -1,0 +1,16 @@
+Escriba un programa que determine si un número natural ingresado es PAR o IMPAR.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+31
+
+Salida a:
+IMPAR
+
+
+Entrada b:
+121212
+
+
+Salida b:
+PAR

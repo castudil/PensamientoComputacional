@@ -1,0 +1,29 @@
+monedas 500,100,50
+
+estrategia
+
+input
+monto
+supuestos: entero, multiplos 50, sino simplemente ignoramos el resto.
+
+output
+3 numeros
+x y z
+x numero de monedas de 500
+y numero de monedas de 100
+z numero de monedas de 50
+
+estrategia:
+
+dividir
+tomamos numero inicial y lo dividimos por quinientos
+
+
+
+ojo, cuidado
+tomar numero inicial y divirlo por 100... no funciona!
+
+lo correcto es obtener el resto.
+tomar el resto y divirlo por 100
+
+tomar el resto de eso y divirlo por 50.

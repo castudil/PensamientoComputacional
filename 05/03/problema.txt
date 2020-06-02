@@ -1,0 +1,23 @@
+Escriba un programa que reciba una temperatura en centígrados y luego la describa con una palabra según la siguiente tabla:
+
+Temp < 0 es BAJO CERO
+Temp [0-10[ es MUY HELADO
+Temp [10-20[ es HELADO
+Temp [20-30[ es NORMAL
+Temp [30-40[ es CALUROSO
+Temp >=40 es MUY CALUROSO
+
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+19.5
+
+Salida a:
+HELADO
+
+
+Entrada b:
+30
+
+Salida b:
+CALUROSO

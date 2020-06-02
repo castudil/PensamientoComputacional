@@ -1,0 +1,15 @@
+Escriba un algoritmo que, dado dos números naturales que entran como datos, determine si el primero es divisor del segundo. Si el primero número es mayor que el segundo, indicar MAYOR; si el primero es divisor, indicar SI, en caso contrario, indicar NO.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+3 963
+
+Salida a:
+SI
+
+
+Entrada b:
+25 5
+
+Salida b:
+MAYOR

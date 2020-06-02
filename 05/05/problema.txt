@@ -1,0 +1,16 @@
+Escribir un programa que lea un carácter de teclado e informe si es ALFABETICO (comprendido entre A y Z o entre a y z, sin incluir Ñ ñ), NUMERICO (comprendido entre 0 y 9) o un signo de PUNTUACION (. , ; :). Si no coincide con ninguno de estos tipos, el programa debe mostrar por pantalla NO.
+Sugerencia: ASCII
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+0
+
+Salida a:
+NUMERICO
+
+
+Entrada b:
+u
+
+Salida b:
+ALFABETICO

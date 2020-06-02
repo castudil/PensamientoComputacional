@@ -1,0 +1,15 @@
+Escriba un programa que determine si un alumno aprubea un curso con el promedio de sus tres notas. Este primero recibirá la nota mínima para aprobar, seguida de las tres notas del alumno. Las notas pertenecen al intervalo [0.0 , 7.0] y la salida debe ser APROBADO o REPROBADO.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+4.0 3.5 5.0 6.5
+
+Salida a:
+APROBADO
+
+
+Entrada b:
+5.5 4.3 5.0 4.2
+
+Salida b:
+REPROBADO

@@ -1,0 +1,16 @@
+Escriba un programa que encuentre el entero mayo de tres ingresados.
+Recordar: Salto de linea final (ej: printf("output\n");)
+
+Entrada a:
+34 25 80
+
+Salida a:
+80
+
+
+Entrada b:
+50 50 50
+
+
+Salida b:
+50

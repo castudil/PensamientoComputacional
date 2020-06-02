@@ -1,0 +1,44 @@
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+ ls
+'01 Hello World'   02   02-lab-resuelto   main.c
+ cd 02-lab-resuelto/
+ ls
+a.out          entrada02.txt  problema-01.c  salida02.txt
+entrada01.txt  entrada03.txt  salida01.txt   salida03.txt
+ gcc 
+a.out          entrada02.txt  problema-01.c  salida02.txt   
+entrada01.txt  entrada03.txt  salida01.txt   salida03.txt   
+ gcc problema-01.c 
+ ./a.out 
+1
+2
+1.02
+ ./a.out < entrada01.txt 
+200.20
+ more salida01.txt 
+200.20
+ diff entrada01.txt salida01.txt 
+1,2c1
+< 200
+< .1
+\ No newline at end of file
+---
+> 200.20
+\ No newline at end of file
+ diff entrada01.txt salida01.txt 
+1,2c1
+< 200
+< .1
+\ No newline at end of file
+---
+> 200.20
+ ./a.out < entrada01.txt 
+200.20
+ ./a.out < entrada01.txt  > output
+ diff output salida01.txt 
+ diff output salida02.txt 
+1c1
+< 200.20
+---
+> 100.10
+ 

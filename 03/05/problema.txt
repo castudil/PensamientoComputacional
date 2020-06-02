@@ -1,0 +1,15 @@
+/*
+Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase "Tu índice de masa corporal es <imc>" donde <imc> es el índice de masa corporal calculado mostrando dos decimales.
+Puede usar internet para buscar la fórmula
+Ejemplo:
+Entrada:
+60 1.63
+Salida
+22.58
+
+Ejemplo 2:
+Entrada:
+90 1.7
+Salida:
+31.14
+*/

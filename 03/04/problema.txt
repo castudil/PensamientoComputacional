@@ -1,0 +1,13 @@
+/*
+Escribe un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
+
+Ejemplo 1:
+Entrada
+4 10000
+Salida
+40000
+
+Ejemplo 2:
+5 8000
+40000
+*/

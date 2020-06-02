@@ -1,0 +1,5 @@
+/*
+Escribir un programa que lea los valores de los catetos de un
+triángulo rectángulo y calcule cuál es la hipotenusa, el área y el
+perímetro del triángulo mediante las siguientes expresiones:
+*/

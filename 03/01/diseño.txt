@@ -1,0 +1,14 @@
+input:
+cateto1
+cateto2
+output:
+hipotenusa area perimetro
+
+hipotenusa a traves de pitagoras
+c=sqrt(a*a + b*b)
+
+area
+area=cateto1*cateto2/2
+
+perimetro
+perimetro= cateto1 + cateto2 + hipotenusa

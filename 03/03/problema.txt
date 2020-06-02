@@ -1,0 +1,22 @@
+/*
+* Realizar un seguimiento al siguiente programa.
+* determinar que valores almacenan las variables
+* descomentar los print para verificar que las predicciones son correctas
+* ¿falló algo? ¿cuál es la explicación?
+*/
+#include <stdio.h>
+int main()
+{
+    int x=3, y;
+    float z;
+    y=x+3;
+    //printf (“%d\n”, y);
+    y=3*x*x + 2*x + 1;
+    //printf (“%d\n”, y);
+    z=x*0.3;
+    //printf (“%f\n”, z);
+    z=y/x;
+    //printf (“%f\n”, z);
+    z=(float)y/x;
+    //printf (“%f\n”, z);
+}
