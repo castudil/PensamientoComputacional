@@ -20,6 +20,7 @@ salida:
 lista modificada, donde se agrega una casilla con el dato respectivo
 
 
+
 **/
 
 #include<stdio.h>
@@ -30,7 +31,7 @@ struct nodo{
 	struct nodo *otro;
 };
 
-struct nodo *p,*q;
+struct nodo *p=NULL,*q=NULL;
 
 //firmas
 void insertar(int dato);
@@ -54,13 +55,14 @@ int main(){
 void insertar(int dato){
 	struct nodo *r;
 	if(p==NULL){ //primer caso
-		p=(struct nodo*)malloc(size(struct nodo)); // reservando memoria
+		p=(struct nodo*)malloc(sizeof(struct nodo)); // reservando memoria
 		p->dato=dato;
 		p->otro=p; // en la lista circular el ultimo apunta al primero
 		q=p; //detalle q apunta al ultimo elemento (unico elemento en este caso)
 	}
 	else { //caso general
-		r=(struct nodo*)malloc(size(struct nodo)); // reservando memoria
+    //printf("general!");
+		r=(struct nodo*)malloc(sizeof(struct nodo)); // reservando memoria
 		r->dato=dato;  // llenamos la informacion
 		r->otro=p; // r apunta a p que es el primer elemento
 		q->otro=r; // el ultimo elemento apunta a r que es el nuevo elemento
@@ -72,7 +74,8 @@ void insertar(int dato){
 void imprimir(){
   struct nodo *aux=p;
   if(aux==NULL) // lista esta vacia.
- 
+    return;
+
   do{
     printf("%d ",aux->dato); // imprimir dato
     aux=aux->otro; // avanzamos
